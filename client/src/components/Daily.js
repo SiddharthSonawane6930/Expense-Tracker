@@ -49,7 +49,7 @@ export default function Daily() {
             {
               label: "Expense",
               data: Object.values(Segregated[0]),
-              borderColor: "black",
+              // borderColor: "black",
               backgroundColor: [
                 "rgba(255, 99, 132, 0.4)",
                 "rgba(255, 159, 64, 0.4)",
