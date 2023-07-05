@@ -5,6 +5,7 @@ import mail from "../assets/mail.png";
 import { Link } from "react-router-dom";
 import bg from "../assets/black-texture.jpg";
 import linkedin from "../assets/linkedin.png";
+import prof from "../assets/prof.png";
 import github from "../assets/github.png";
 import instagram from "../assets/instagram.png";
 import sid from "../assets/i.jpg";
@@ -33,7 +34,7 @@ const Developers = () => {
           Developers
         </h1>
       </div>
-      <div className="lg:flex justify-around mt-5 lg:mt-32">
+      <div className="lg:flex justify-around mt-10 lg:mt-32">
         <div className="mx-auto mt-5 lg:mt-0 lg:mx-0 bg-jp-black relative shadow-slate-700 shadow-md rounded-md w-72 h-96">
           <div className="h-2/6 bg-mj-yellow rounded-t-md overflow-hidden"></div>
           <img
@@ -42,11 +43,18 @@ const Developers = () => {
             className="absolute w-32 top-16 left-20 border-2 rounded-full bg-black border-black"
           />
           <div className="mt-20 flex flex-col items-center justify-center ">
-            <h1 className=" text-slate-300 text-3xl font-semibold">
-              Siddharth S.
+            <h1 className=" text-slate-200 text-2xl font-semibold">
+              Siddharth Sonawane
             </h1>
             <h1 className="mt-1 text-lg text-slate-500">Developer</h1>
-            <div className="w-36 flex justify-between mt-6">
+            <div className="w-40 flex justify-between mt-6">
+              <a
+                href="https://siddharthsonawane.vercel.app/"
+                target="blank"
+              >
+                {" "}
+                <img src={prof} alt="portfolio" className="h-8 w-8" />
+              </a>
               <a
                 href="https://www.linkedin.com/in/siddharth-sonawane-it/"
                 target="blank"
