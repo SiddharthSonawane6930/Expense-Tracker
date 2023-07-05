@@ -5,7 +5,6 @@ import Profile from "../components/Profile";
 import ProfileExpand from "../components/ProfileExpand";
 import { Scrollbars } from "react-custom-scrollbars";
 import { useNavigate } from "react-router-dom";
-import moment from "moment";
 
 export default function MainDaily(props) {
   const navigate = useNavigate();
