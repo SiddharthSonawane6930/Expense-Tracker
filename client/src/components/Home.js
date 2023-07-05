@@ -85,7 +85,7 @@ export default function Home(props) {
             {
               label: "Expense",
               data: Object.values(Segregated[0]),
-              borderColor: "black",
+              // borderColor: "black",
               backgroundColor: [
                 "rgba(255, 99, 132, 0.4)",
                 "rgba(255, 159, 64, 0.4)",
@@ -164,7 +164,7 @@ export default function Home(props) {
               }}
             >
               <span className="inline-block mt-2 cursor-pointer">
-                <img className="ml-2 w-5" src={Popup}></img>
+                <img className="ml-2 w-5" src={Popup} alt="img not available"></img>
               </span>
             </button>
             {tooltip ? (

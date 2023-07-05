@@ -148,7 +148,7 @@ export default function Signup(props) {
 
         <p className="">
           By creating an account you agree to our{" "}
-          <a className="text-rp-yellow">terms and conditions</a>
+          <a className="text-rp-yellow" href="#top">terms and conditions</a>
         </p>
         <div className="mt-4">
           {isLoading ? (
